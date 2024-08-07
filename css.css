@@ -6,63 +6,82 @@
 
 
 }
+.light{
+    background-color: #12a649;
+}
+.dark{
+    background-color: green;
+    align-items: center;
+}
 h1{
     color: black;
     text-align: center;
     text-decoration: none;
     font-family: sans-serif;
+    background-color: #12a649;
+
 }
-html, body {
+body {
     width: 80;
     height: 100%;
     margin: 0;
     padding: 0;
     background-color: green;
-}body{
-    background-color: green;
-
-}
-div{
-    width: 100%;
-}
-
-  * {
-    box-sizing: border-box;
-
-  }
-.center {
-    margin: auto;
-    text-align: center;
-    width: 50%;
-    padding: 10px;
-    font-size: 50px;
-  }
-.Lbar{
-    width: 40%;
-    float: left;
-    color: white;
-    margin: left;
-    margin-right: 10px;
-    border-width: 5px;
-    background-color: #12a649;
-    width: 200px;
-    text-align: left;
-    font-size: 20px;
-    font-family:sans-serif;
-    grid-column-start: 1;
-    grid-column-end: 3;
-
-}
-a{
-    color: white;
-    text-decoration-line: none;
-
 }
 #searchbar{
-    align-items: center;
-    text-align: center;
     background-color: white;
-    border-radius: 15px;
-    grid-column-start: 4;
-
+    border-radius: 10px;
+    width: fit-content;
+    font-size: larger;
 }
+#container{
+    background-color: #12a649;
+    
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    
+   }
+   #item1{
+    margin-left: 20px;
+   }
+   p{
+    text-align: center;
+   }
+   .sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#12a649;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: black;
+  }
+  
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .grid{
+    grid-template-columns: 2;
+  }
