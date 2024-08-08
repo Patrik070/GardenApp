@@ -1,50 +1,97 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="css.css">
-<style>
-    .grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-}
-    .grid-item{
-    text-align: left;
-    }
-</style>
-<title>My Plants</title>
+    <link rel="stylesheet" href="plant.css">
 </head>
 <body>
-    <div class="light">   
+    <div>   
         <div class="sidenav">
-            <table>
-                <tr>
-                    <th><img src="images/logo.png" width="50" /></th>
-                    <th><h1 id="menu">Menu</h1></th>
-                </tr>
-            </table>
+
+        <h1 id="menu">My Plants</h1>
             <a href="main.html">Home</a>
-            <a href="forum.html">My Plants</a>
-            <a href="quiz.html">Quiz</a>
-        </div> 
-        
-        <div class="main">
-            <h1>My Plants</h1>
-            <div class="grid-container">
-                <div class="grid-item"><img src="images/anthurium.png" alt="anthurium"></div>
-                <div class="grid-item">
-                    <div class="search">
-                        <p>anthurium</p>
-                <p>planted on 06/08/24</p>
-                <p>last watered 2 days ago</p>
-                <p>status: happy</p></div>
-                    </div>
-                
-            </div>
-        </div>
-        
+            <a href="dashboard.html">Dashboard</a>
+            <a href="plant.html">My plants</a>
+
+        </div>    
         <div class="sidenav2">
-        </div>
+            <img src="images/logo.png" width="50" />
+            <div class="funfact">
+                <h3 class="funtext">Fun fact:</h3>
+                <p class="funtext">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            </div>
     </div>
     
+
+        <div class="main">
+            <h1>My Plants</h1>
+            <table class="rtable">
+                <tr>
+                    <th>
+                        <img src="images/anthurium.png" alt="anthurium" width="250">  
+                   </th>  
+                   <th>
+                        <div class="search">
+                                <p class="left">anthurium</p>
+                        <p class="left">planted on 06/08/24</p>
+                        <p class="left">last watered 2 days ago</p>
+                        <p class="left">status: happy</p>
+                        </div>
+                    </th>
+                </tr>
+            </table>
+            <div class="cal">
+                <h3>Calender</h3>
+                <table class="calender">
+                    <tr class="see">
+                        <th class="see"></th>
+                        <th class="see"></th>
+                        <th class="see"></th>
+                        <th class="see"></th>
+                        <th class="see"></th>
+                        <th class="see"></th>
+                        <th class="see"></th>
+                    </tr>
+                    <tr class="see">
+                        <th class="see"></th>
+                        <th class="see"></th>
+                        <th class="see"></th>
+                        <th class="see"></th>
+                        <th class="see"></th>
+                        <th class="see"></th>
+                        <th class="see"></th>
+                    </tr>
+                    <tr class="see">
+                        <th class="see"></th>
+                        <th class="see"></th>
+                        <th class="see"></th>
+                        <th class="see"></th>
+                        <th class="see"></th>
+                        <th class="see"></th>
+                        <th class="see"></th>
+                    </tr>
+                    <tr class="see">
+                        <th class="see"></th>
+                        <th class="see"></th>
+                        <th class="see"></th>
+                        <th class="see"></th>
+                        <th class="see"></th>
+                        <th class="see"></th>
+                        <th class="see"></th>
+                    </tr>
+                    <tr class="see">
+                        <th class="see"></th>
+                        <th class="see"></th>
+                        <th class="see"></th>
+                        <th class="see"></th>
+                        <th class="see"></th>
+                        <th class="see"></th>
+                        <th class="see"></th>
+                    </tr>
+                </table>
+ 
+        </div>
+        </div>
+        
+       
 </body>
 </html> 
