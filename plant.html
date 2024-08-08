@@ -2,6 +2,15 @@
 <html>
 <head>
 <link rel="stylesheet" href="css.css">
+<style>
+    .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+    .grid-item{
+    text-align: left;
+    }
+</style>
 <title>My Plants</title>
 </head>
 <body>
@@ -17,9 +26,23 @@
             <a href="forum.html">My Plants</a>
             <a href="quiz.html">Quiz</a>
         </div> 
+        
         <div class="main">
             <h1>My Plants</h1>
-            <img src="images/anthurium.png" alt="anthurium">
+            <div class="grid-container">
+                <div class="grid-item"><img src="images/anthurium.png" alt="anthurium"></div>
+                <div class="grid-item">
+                    <div class="search">
+                        <p>anthurium</p>
+                <p>planted on 06/08/24</p>
+                <p>last watered 2 days ago</p>
+                <p>status: happy</p></div>
+                    </div>
+                
+            </div>
+        </div>
+        
+        <div class="sidenav2">
         </div>
     </div>
     
