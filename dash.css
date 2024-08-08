@@ -1,17 +1,21 @@
+text{
+    font-family: sans-serif;
+}
+
 
 #menu{
     color:white;
     text-align: left;
     font-weight: bolder;
     margin-left: 30px;
-    font-family: sans-serif;
 }
-text{
-  font-family: sans-serif;
-}
-h3{
+h4{
   text-align: center;
+  font-size: 40px;
   font-family: sans-serif;
+}
+h2{
+    font-family: sans-serif;
 }
 #dash{
   margin-left: 450px;
@@ -31,7 +35,6 @@ body {
     margin: 0;
     padding: 0;
     background-color: #D8FFD0;
-    font-family: sans-serif;
 }
 #searchbar{
     background-color: white;
@@ -67,11 +70,13 @@ body {
     background-image: url('images/bg.png');
     overflow-x: hidden;
     padding-top: 20px;
+    font-family: sans-serif;
   }
   .sidenav2 {
     height: 100%;
     width: 300px;
     position: fixed;
+    font-family: sans-serif;
     z-index: 1;
     top: 0;
     right: 0;
@@ -103,23 +108,16 @@ body {
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+    .sidenav2 {width: 50px;}
+
   }
-th{
-  padding-left: 40px;
-  padding-right: 40px;
-  align-items: center;
-  margin-left: 100px;
-  max-width: 1000px;
-  border-radius: 15px;
-  text-align: center;
-}
+  @media screen and (max-width: 1700px) {
+    .sidenav2 {width: 50px;}
+
+  }
+  
 table{
-  align-items: center;
-  margin-left: 100px;
-  max-width: 1000px;
-  border-radius: 15px;
-  text-align: center;
-  width: 1000px;
+    width: 300px;
 }
 #tasks{
   background-color: white;
@@ -134,4 +132,19 @@ table{
   width: 1000px;
   border-radius: 15px;
   text-align: center;
+}
+#tasks2{
+    background-color: white;
+    width: fit-content;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 100px;
+    align-items: center;
+    margin-left: 100px;
+    width: 1000px;
+    border-radius: 15px;
+    text-align: top;
+  }
+.water{
+    width: 300px;
 }
