@@ -6,19 +6,13 @@
 
 
 }
-.light{
-    background-color: #12a649;
-}
-.dark{
-    background-color: green;
-    align-items: center;
-}
+
 h1{
     color: black;
-    text-align: center;
+    margin-left: 550px;
     text-decoration: none;
     font-family: sans-serif;
-    background-color: #12a649;
+    font-size: 50px;
 
 }
 body {
@@ -26,7 +20,7 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: green;
+    background-color: #D8FFD0;
 }
 #searchbar{
     background-color: white;
@@ -34,38 +28,44 @@ body {
     width: fit-content;
     font-size: larger;
 }
-#container{
-    background-color: #12a649;
-    
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    align-items: center;
-    
-   }
-   #item1{
-    margin-left: 20px;
-   }
+.search{
+  color: white;
+  background-color: white;
+}
    p{
     text-align: center;
    }
    .sidenav {
     height: 100%;
-    width: 160px;
+    width: 300px;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color:#12a649;
+    background-image: url('images/bg.png');
     overflow-x: hidden;
     padding-top: 20px;
+  }
+  .sidenav2 {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-image: url('images/bg.png');
+    overflow-x: hidden;
+    padding-top: 20px;
+    text-align: right;
   }
   
   .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 40px;
     color: white;
     display: block;
+    text-align: center;
   }
   
   .sidenav a:hover {
@@ -73,7 +73,7 @@ body {
   }
   
   .main {
-    margin-left: 160px; /* Same as the width of the sidenav */
+    margin-left: 340px; /* Same as the width of the sidenav */
     font-size: 28px; /* Increased text to enable scrolling */
     padding: 0px 10px;
   }
