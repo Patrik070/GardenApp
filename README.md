@@ -1,1 +1,7 @@
 # GardenApp
+Manual:
+  clone git repository to your pc
+  open code in visual studio
+  in visual studio run code:
+    with f5 and choose your browser
+    or install open browser prewiew and run main.html file    
