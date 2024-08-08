@@ -6,19 +6,9 @@
     margin-left: 30px;
     font-family: sans-serif;
 }
-text{
-  font-family: sans-serif;
-}
-h3{
-  text-align: center;
-  font-family: sans-serif;
-}
-#dash{
-  margin-left: 450px;
-}
 h1{
     color: black;
-    margin-left: 520px;
+    margin-left: 470px;
     text-decoration: none;
     font-family: sans-serif;
     font-size: 50px;
@@ -54,9 +44,6 @@ body {
   border-radius: 15px;
   text-align: center;
 }
-   p{
-    text-align: center;
-   }
    .sidenav {
     height: 100%;
     width: 300px;
@@ -110,34 +97,3 @@ body {
     .sidenav2 {width: 50px;}
 
   }
-th{
-  padding-left: 40px;
-  padding-right: 40px;
-  align-items: center;
-  margin-left: 100px;
-  max-width: 1000px;
-  border-radius: 15px;
-  text-align: center;
-}
-table{
-  align-items: center;
-  margin-left: 100px;
-  max-width: 1000px;
-  border-radius: 15px;
-  text-align: center;
-  width: 1000px;
-}
-#tasks{
-  background-color: white;
-  width: fit-content;
-  height: fit-content;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  align-items: center;
-  margin-left: 100px;
-  width: 1000px;
-  border-radius: 15px;
-  text-align: center;
-}
