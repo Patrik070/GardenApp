@@ -47,7 +47,7 @@ body {
    }
    .sidenav {
     height: 100%;
-    width: 300px;
+    width: 320px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -59,7 +59,7 @@ body {
   }
   .sidenav2 {
     height: 100%;
-    width: 300px;
+    width: 250px;
     position: fixed;
     font-family: sans-serif;
     z-index: 1;
@@ -93,11 +93,6 @@ body {
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
-    .sidenav2 {width: 50px;}
-
-  }
-  @media screen and (max-width: 1700px) {
-    .sidenav2 {width: 50px;}
 
   }
   
